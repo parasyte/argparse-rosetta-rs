@@ -317,6 +317,12 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f051f77a7c8e6957c0696eac88f26b0117e54f52d3fc682ab19397a8812846a4"
 
 [[package]]
+name = "myn"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f950af707b8005ae33bb0f0b20cb32b09750e7375085606dc45b2f2078a34e52"
+
+[[package]]
 name = "null-app"
 version = "0.1.0"
 
@@ -328,8 +334,9 @@ checksum = "b7e5500299e16ebb147ae15a00a942af264cf3688f47923b8fc2cd5858f23ad3"
 
 [[package]]
 name = "onlyargs"
-version = "0.1.0"
-source = "git+https://github.com/parasyte/onlyargs.git?rev=6abe5cd5474239846b3bc81d87bca6779e342d1e#6abe5cd5474239846b3bc81d87bca6779e342d1e"
+version = "0.1.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "43a545810563d1ea7914578c0f0471a2caeabc49540b737dc8a6efd5efff3587"
 
 [[package]]
 name = "onlyargs-app"
@@ -340,12 +347,12 @@ dependencies = [
 
 [[package]]
 name = "onlyargs_derive"
-version = "0.1.0"
-source = "git+https://github.com/parasyte/onlyargs.git?rev=6abe5cd5474239846b3bc81d87bca6779e342d1e#6abe5cd5474239846b3bc81d87bca6779e342d1e"
+version = "0.1.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "404a56d5d88839d17f532e41c8cee5a4f6cdbcbaf650b3233810878d58c565d6"
 dependencies = [
+ "myn",
  "onlyargs",
- "quote",
- "syn 2.0.8",
 ]
 
 [[package]]

@@ -11,7 +11,7 @@ struct Args {
 
 impl OnlyArgs for Args {
     fn parse(args: Vec<OsString>) -> Result<Self, CliError> {
-        use onlyargs::extensions::*;
+        use onlyargs::traits::*;
 
         let mut number = None;
         let mut opt_number = None;
