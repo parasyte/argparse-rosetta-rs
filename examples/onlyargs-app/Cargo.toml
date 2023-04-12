@@ -1,0 +1,11 @@
+[package]
+name = "onlyargs-app"
+version = "0.1.0"
+edition = "2018"
+
+[[bin]]
+name = "onlyargs-app"
+path = "app.rs"
+
+[dependencies]
+onlyargs = { git = "https://github.com/parasyte/onlyargs.git", rev = "6abe5cd5474239846b3bc81d87bca6779e342d1e" }
